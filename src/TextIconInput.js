@@ -1,6 +1,6 @@
 import React from "react";
 import {StyleSheet, View, TextInput} from "react-native";
-import {DEFAULT_SPACING, LIGHT_GREY_COLOR} from "styles/constants";
+import {DEFAULT_SPACING, LIGHT_GREY_COLOR} from "./styles/constants";
 
 const TextIconInput = ({
     placeholder, value, onChange,
