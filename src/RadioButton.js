@@ -1,6 +1,6 @@
 import React from "react";
 import {StyleSheet, Text, TouchableNativeFeedback, View} from "react-native";
-import {ACCENT_COLOR, GREY_COLOR} from "styles/constants";
+import {ACCENT_COLOR, GREY_COLOR} from "./styles/constants";
 
 const RadioButtonCircle = ({isSelected}) => (
     <View 

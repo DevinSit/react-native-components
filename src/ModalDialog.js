@@ -1,6 +1,6 @@
 import React from "react";
 import {Modal, StyleSheet, Text, TouchableNativeFeedback, View} from "react-native";
-import {DEFAULT_SPACING, ACCENT_COLOR, GREY_COLOR, LIGHT_COLOR} from "styles/constants";
+import {DEFAULT_SPACING, ACCENT_COLOR, GREY_COLOR, LIGHT_COLOR} from "./styles/constants";
 import AndroidButton from "components/AndroidButton";
 
 const BillSummaryModalLayout = ({
