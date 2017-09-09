@@ -4,8 +4,8 @@ import {Platform, StyleSheet, Text, TouchableNativeFeedback, View} from "react-n
 const touchableBackground = (Platform.OS === "android") ? TouchableNativeFeedback.Ripple("", true) : null;
 
 const FloatingActionButton = ({color = "red", size = 64, onClick, children}) => (
-    <View style={[styles.FABContainer, {backgroundColor: color}]} onPress={onClick}>
-        <TouchableNativeFeedback background={touchableBackground}>
+    <View style={[styles.FABContainer, {backgroundColor: color}]}>
+        <TouchableNativeFeedback background={touchableBackground} onPress={onClick}>
             <View style={[styles.FAB, {height: size, width: size}]}>
                 {children}
             </View>
