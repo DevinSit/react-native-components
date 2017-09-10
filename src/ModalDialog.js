@@ -3,7 +3,7 @@ import {Modal, StyleSheet, Text, TouchableNativeFeedback, View} from "react-nati
 import {DEFAULT_SPACING, ACCENT_COLOR, GREY_COLOR, LIGHT_COLOR} from "./styles/constants";
 import AndroidButton from "./AndroidButton";
 
-const BillSummaryModalLayout = ({
+const ModalDialog = ({
     headerText, children,
     negativeButtonText, onNegativeButtonClick,
     positiveButtonText, onPositiveButtonClick,
@@ -86,14 +86,14 @@ const styles = StyleSheet.create({
         width: 325
     },
     modalDialog__ContentContainer: {
-        padding: 10,
+        paddingVertical: 10,
         paddingHorizontal: DEFAULT_SPACING
     },
     modalDialog__Header: {
         fontSize: 20,
         fontWeight: "bold",
-        marginBottom: DEFAULT_SPACING
+        marginBottom: DEFAULT_SPACING / 2
     }
 });
 
-export default BillSummaryModalLayout;
+export default ModalDialog;
