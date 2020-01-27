@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/dsrobo620/reactnativecomponents.git"
+    "url": "git@github.com:DevinSit/react-native-components.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/dsrobo620/reactnativecomponents#readme",
+  "homepage": "https://github.com/DevinSit/react-native-components",
   "dependencies": {
-    "react": "^16.0.0-alpha.12",
-    "react-native": "^0.47.2",
+    "react": "^16.9.0",
+    "react-native": "^0.61.5",
     "react-native-menu": "^0.23.0",
-    "react-native-vector-icons": "^4.3.0"
+    "react-native-vector-icons": "^6.6.0"
   }
 }
