@@ -1,6 +1,6 @@
 # React Native Components
 
-This is a personal repository of re-usable React Native components that I use/have used across my React Native components.
+This is a personal repository of re-usable React Native components that I use/have used across my React Native projects.
 
 ## Contributing
 
